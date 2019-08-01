@@ -20,8 +20,8 @@ import './commands'
 // require('./commands')
 
     beforeEach('', () => {
-        cy.fixture(Cypress.env("fixture")).then(config => {
-            Cypress.env('config', config);
-            Cypress.config('baseUrl', config.baseUrl);
-        });
+        // cy.fixture(Cypress.env("fixture")).then(config => {
+        //     Cypress.env('config', config);
+        //     Cypress.config('baseUrl', config.baseUrl);
+        // });
     });
